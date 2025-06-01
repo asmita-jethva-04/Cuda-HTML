@@ -1,0 +1,513 @@
+.header{
+	background-color:#864F9C ;
+	position: fixed;
+}
+.header h4{
+	margin-left: 10%;
+}
+.navbar ul{
+	padding-left:40px;
+	text-align:right;
+    margin-left:45% ;
+}
+.navbar ul li{
+	padding-right:35px;
+}
+.navbar ul li a{
+	font-size:18px;
+}
+.navbar ul li a:hover{
+	background-color:#76498B;
+}
+.navbar-nav li a.active{
+	background:#76498B ;
+}
+.home{
+    background-color:#864F9C ;
+    padding-bottom: 10%;
+}
+.home button{
+    border:1px solid #B86976;
+    background-color: #EB7D4B;
+}
+.service{
+    background-color: #15C6A9;
+    padding-top:7%;
+}
+.service h2:after{
+	border-bottom:5px solid #33b391;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.service img{
+	height:15%;
+}
+.team{
+	background-color: #E7F1F8;
+	padding-top:5%;
+}
+.team h2:after{
+	border-bottom:5px solid lightgrey;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.team img{
+	border:1px solid #E7F1F8;
+	border-radius:50%;
+	height:32%;
+	width:50%;
+	overflow: hidden;
+	object-fit: cover;
+}
+.team span{
+	color:#0bf4ec;
+}
+.team i{
+	border:1px solid #D4E2EC;
+	border-radius:50%;
+	padding:3% 4%;
+	margin-right:2%;
+	background-color:#D4E2EC ;
+}
+.skill{
+	padding-top:4%;
+	padding-bottom:4%;
+}
+.skill h2:after{
+	border-bottom:5px solid lightgrey;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.protfolio{
+	background-color: #FFDD99;
+	padding-top:5%;
+	padding-bottom:3%;
+}
+.protfolio .col-6{
+	margin-bottom: 8%;
+}
+.protfolio h2:after{
+	border-bottom:5px solid #E2CA8B;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.protfolio button.active{
+	border: 1px solid white;
+	background-color:white ;
+}
+.protfolio button{
+	background-color:#E2CA8B;
+	margin-bottom: 3%;
+}
+.protfolio button:hover{
+	border: 1px solid blue;
+}
+.protfolio img{
+	width:60%;
+	overflow: hidden;
+	object-fit: cover;
+}
+.protfolio .load-project button{
+	background-color: #17C2A4;
+}
+.protfolio .load-project button:hover{
+	border: 1px solid blue;
+}
+.about-us{
+	background-color: #C95288;
+	padding-top: 5%;
+	padding-bottom:4%;
+}
+.about-us .col-6{
+	margin-bottom: 6%;
+}
+.about-us h2:after{
+	border-bottom:4px solid #D2447D;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.about-us img{
+	border:1px solid #D2447D;
+	border-radius:50%;
+	height:45%;
+	width:40%;
+	overflow: hidden;
+	object-fit: cover;
+	
+}
+.about-us span{
+	color:yellow ;
+	font-size:80%;
+}
+.message{
+	background-color: #3C5399;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.message h2:after{
+	border-bottom:4px solid #394F93;
+	margin:0 auto;
+	width:5%;
+	content:' ';
+	display: block;
+	margin-top:13px;
+}
+.message input{
+	background-color: #273971;
+}
+.message input:focus{
+	background-color: #273971;
+	color: white;
+}
+.message input::placeholder{
+	color: white;
+	padding: 2%;
+}
+.message textarea{
+	width:100%;
+	background-color: #273971;
+	border:1px solid white;	
+}
+.message textarea:focus{
+	color: white;
+}
+.message textarea::placeholder{
+	color: white;
+	padding-left: 2%;	
+	padding-top:1%;
+}
+.message button{
+	background-color: #17C2A4;
+	margin-top: 3%;
+}
+.footer{
+	background-color: #344B8E;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.footer ul a{
+	text-decoration: none;
+	color: white;
+	font-size:130%;
+	padding: 2%;
+}
+.footer ul a.active{
+	text-decoration: none;
+	color: #17C2A4;
+}
+.footer ul li{
+	list-style-type: none;
+	display: inline;
+	
+}
+.footer .col-2 img{
+	height: 80%;
+	margin-right:150%;
+}
+@keyframes bounce {  
+	0%, 20%, 50%, 80%, 100% { transform: translateY(0); }  
+	40% { transform: translateY(-30px); }  
+	60% { transform: translateY(-15px); }  
+}
+.bounce {  
+	animation: bounce 2s infinite; /* Adjust duration and iteration count as needed */  
+} 
+.footer i{
+	font-size:50px;
+	color: gray;
+	margin-left: 40%;
+}
+
+/* for small devices */
+@media  (max-width:576px){
+	.navbar ul li a{
+		text-align: center;
+	}
+	.home br{
+		display: none;
+	}
+	.service .col-3 {
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	} 
+	.team .col-3{
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	}
+	.team img{
+		border:1px solid #E7F1F8;
+		border-radius:50%;
+		height:30%;
+		width:50%;
+		overflow: hidden;
+		object-fit: cover;
+	}
+	.skill .col-3{
+		width:50%;
+	}
+	.protfolio .col-6{
+		width:100%;
+		padding-bottom: 10%;
+		margin-top: 2%;
+	}
+	.protfolio img{
+		height:80%;
+		width:50%;
+	}
+	.load-project .col-2{
+		width: 50%;
+		margin-bottom: 10%;
+	}
+	.about-us .col-6{
+		width:100%;
+		margin-bottom: 7%;
+	}
+	.about-us img{
+		height:50%;
+		width:70%;
+		overflow: hidden;
+		object-fit: cover;	
+	}
+	.footer ul{
+		margin-top:3%;
+	}
+}
+
+/* for small to medium devices */
+@media (min-width:576px) and (max-width:768px){
+	.navbar ul li a{
+		text-align: center;
+	}
+	.home br{
+		display: none;
+	}
+	.service .col-3 {
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	} 
+	.team .col-3{
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	}
+	.team img{
+		border:1px solid #E7F1F8;
+		border-radius:50%;
+		height:30%;
+		width:50%;
+		overflow: hidden;
+		object-fit: cover;
+	}
+	.skill .col-3{
+		width:50%;
+	}
+	.load-project .col-2{
+		width: 45%;
+		margin-bottom: 10%;
+	}
+	.about-us .col-6{
+		width:100%;
+		margin-bottom:0%;
+	}
+	.about-us img{
+		height:50%;
+		width:70%;
+		overflow: hidden;
+		object-fit: cover;	
+	}
+	.footer ul{
+		margin-top:3%;
+	}
+}
+
+/* for medium to large devices */
+@media (min-width:768px) and (max-width:992px){
+	.navbar ul li a{
+		text-align: center;
+	}
+	.navbar ul{
+		padding-left:0px;
+		margin-left:29% ;
+	}
+	.home h1 br{
+		display: none;
+	}
+	.service .col-3 {
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	} 
+	.team .col-3{
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	}
+	.team img{
+		border:1px solid #E7F1F8;
+		border-radius:50%;
+		height:35%;
+		width:40%;
+		overflow: hidden;
+		object-fit: cover;
+	}
+	.load-project .col-2{
+		width: 40%;
+		margin-bottom: 10%;
+	}
+	.about-us .col-6{
+		width:100%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+	}
+	.about-us img{
+		height:50%;
+		width:70%;
+		overflow: hidden;
+		object-fit: cover;	
+	}
+	.about-us p{
+		font-size:25px;
+	}
+	.about-us h6{
+		font-size: 23px;
+	}
+	.about-us span{
+		font-size: 17px;
+	}
+	.footer ul{
+		margin-top:3%;
+	}
+}
+
+/* for large to extra large devices */
+@media (min-width:992px) and (max-width:1200px){
+	.navbar ul{
+		padding-left:0px;
+		text-align:right;
+		margin-left:38% ;
+	}
+	.team .col-3{
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	}
+	.team img{
+		border:1px solid #E7F1F8;
+		border-radius:50%;
+		height:30%;
+		width:25%;
+		overflow: hidden;
+		object-fit: cover;
+	}
+	.team span{
+		font-size:20px;
+	}
+	.team i{
+		padding:2% 3%;
+	}
+	.load-project .col-2{
+		width: 25%;
+		margin-bottom: 7%;
+	}
+	.about-us .col-6{
+		width:100%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+	}
+	.about-us img{
+		height:49%;
+		width:50%;
+		overflow: hidden;
+		object-fit: cover;	
+	}
+	.about-us p{
+		font-size:25px;
+	}
+	.about-us h6{
+		font-size: 23px;
+	}
+	.about-us span{
+		font-size: 17px;
+	}
+}
+
+/* for extra large to 2X large devices */
+@media (min-width:1200px) and (max-width:1400px){
+	.navbar ul{
+		padding-left:0px;
+		text-align:right;
+		margin-left:38% ;
+	}
+	.team img{
+		height:30%;
+		width:50%;
+		overflow: hidden;
+		object-fit: cover;
+	}
+	.team span{
+		font-size:20px;
+	}
+	.load-project .col-2{
+		width: 25%;
+		margin-bottom: 7%;
+	}
+	.about-us .col-6{
+		width:100%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+	}
+	.about-us img{
+		height:49%;
+		width:50%;
+		overflow: hidden;
+		object-fit: cover;	
+	}
+	.about-us p{
+		font-size:25px;
+	}
+	.about-us h6{
+		font-size: 23px;
+	}
+	.about-us span{
+		font-size: 17px;
+	}
+}
+
+/* for big devices */
+@media (max-width:1400px){
+	/* .navbar ul{
+		padding-left:40%;
+		text-align:right;
+		margin-left:70% ;
+	}
+	.navbar ul li{
+		padding-right:50px;
+	}
+	.navbar ul li a{
+		font-size:100px;
+	}
+
+
+			very good asmita
+
+	 */
+}
